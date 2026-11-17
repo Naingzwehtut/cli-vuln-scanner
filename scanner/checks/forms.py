@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 from scanner.checks.base import CheckContext, SecurityCheck
-from scanner.models.finding import Confidence, Finding, FindingStatus, Severity
+from scanner.models.finding import Confidence, Finding, Severity
 
 
 class FormsCheck(SecurityCheck):
