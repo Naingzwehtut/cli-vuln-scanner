@@ -1,7 +1,6 @@
 """Persistence layer: save/load ScanResult objects to/from SQLite."""
 from __future__ import annotations
 
-import json
 
 from scanner.models.finding import Finding
 from scanner.models.scan import ScanConfig, ScanResult
